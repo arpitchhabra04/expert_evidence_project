@@ -26,9 +26,9 @@ export default class Header extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color="light" light expand="md">
+        <Navbar className="NavColor" light expand="md">
           <div className="container">
-            <NavbarBrand href="/">
+            <NavbarBrand href="/" className="BrandSize">
               <span className="fa fa-gavel fa-lg" />
               ExpertEvidence.Org
             </NavbarBrand>

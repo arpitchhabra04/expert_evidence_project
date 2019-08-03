@@ -1,3 +1,8 @@
+* {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+}
 .description {
   background-color: white;
 }
@@ -11,4 +16,12 @@
   border-radius: 15px;
   border: 0px;
   font-size: 30px;
+}
+.NavColor {
+  background-color: #7befb2;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+.BrandSize {
+  font-size: 22px;
 }
