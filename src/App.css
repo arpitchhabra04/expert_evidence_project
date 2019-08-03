@@ -25,3 +25,25 @@
 .BrandSize {
   font-size: 22px;
 }
+.footer {
+  background-color: #7befb2;
+  margin: 0px auto;
+  padding: 20px 0px 20px 0px;
+  color: black;
+}
+.jumbotron {
+  padding: 70px 30px 70px 30px;
+  margin: 0px auto;
+}
+
+.address {
+  font-size: 80%;
+  margin: 0px;
+  color: #0f0f0f;
+}
+a {
+  color: black;
+}
+a:hover {
+  color: white;
+}
