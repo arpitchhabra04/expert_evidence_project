@@ -1,94 +1,14 @@
-.row-header {
-  margin: 0px auto;
-  padding: 0px auto;
+.description {
+  background-color: white;
 }
 
-.row-content {
-  margin: 0px auto;
-  padding: 50px 0px 50px 0px;
-  border-bottom: 1px ridge;
-  min-height: 400px;
-}
-
-.footer {
-  background-color: #bdc3c7;
-  margin: 0px auto;
-  padding: 20px 0px 20px 0px;
-}
-.jumbotron {
-  padding: 70px 30px 70px 30px;
-  margin: 0px auto;
-}
-
-address {
-  font-size: 80%;
-  margin: 0px;
-  color: #0f0f0f;
-}
-
-.navbar-dark {
-  background-color: #cf000f;
-}
-a {
-  color: #fff;
-}
-a:hover {
-  color: #00f;
-}
-
-.NavStyle {
-  position: absolute;
-  right: 0;
-}
-.Trend {
-  /* background-color: #bdc3c7; */
-}
-.Allign {
-  text-align: center;
-  font-size: 3.5rem;
-}
-.AboutUs {
-  text-align: center;
-  margin-top: 80px;
-  margin-bottom: 5px;
-}
-.Content {
+.allign {
   text-align: center;
   margin-top: 50px;
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-bottom: 200px;
+}
+.button1 {
+  background-color: #7befb2;
+  border-radius: 15px;
+  border: 0px;
   font-size: 30px;
 }
-.colorStyle {
-  color: #0f0f0f;
-}
-.loading {
-  text-align: center;
-  margin-top: 200px;
-  margin-left: 200px;
-  margin-right: 50%;
-  margin-bottom: 200px;
-}
-/* .BodyC {
-  margin: 0;
-  padding: 0;
-  background: #333;
-}
-.Cont {
-  width: 1200px;
-  margin: 20px auto;
-  columns: 4;
-  column-gap: 40px;
-}
-.Cont .box {
-  width: 100%;
-  margin: 0 0 20px;
-  padding: 10px;
-  background: #fff;
-  overflow: hidden;
-  break-inside: avoid;
-}
-.con1 .box .img {
-  max-width: 100%;
-} */

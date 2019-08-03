@@ -6,11 +6,7 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem
+  NavLink
 } from "reactstrap";
 
 export default class Header extends React.Component {
@@ -32,7 +28,10 @@ export default class Header extends React.Component {
       <div>
         <Navbar color="light" light expand="md">
           <div className="container">
-            <NavbarBrand href="/">ExpertEvidence.Org</NavbarBrand>
+            <NavbarBrand href="/">
+              <span className="fa fa-gavel fa-lg" />
+              ExpertEvidence.Org
+            </NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
