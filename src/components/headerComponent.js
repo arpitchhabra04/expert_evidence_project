@@ -1,4 +1,5 @@
 import React from "react";
+import "../App.css";
 import {
   Collapse,
   Navbar,
@@ -25,7 +26,7 @@ export default class Header extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div className="help">
         <Navbar className="NavColor" light expand="md">
           <div className="container">
             <NavbarBrand href="/" className="BrandSize">

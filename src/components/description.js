@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "../App.css";
 import { Jumbotron, Button } from "reactstrap";
 import Video from "./video";
 class Description extends Component {

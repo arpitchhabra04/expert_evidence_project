@@ -22,7 +22,7 @@ class SignForm extends Component {
 
   render() {
     return (
-      <div class="container" id="container">
+      <div class="container1" id="container">
         <div id="signup" class="form-container sign-up-container">
           <form action="#">
             <h1>Create Free Account</h1>

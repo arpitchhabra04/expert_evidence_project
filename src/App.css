@@ -48,5 +48,6 @@ a:hover {
   color: white;
 }
 .video {
-  margin-top: 200px;
+  margin-top: 170px;
+  min-width: 300px;
 }
