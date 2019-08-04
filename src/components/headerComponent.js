@@ -6,10 +6,9 @@ import {
   NavbarToggler,
   NavbarBrand,
   Nav,
-  NavItem,
-  NavLink
+  NavItem
 } from "reactstrap";
-
+import { NavLink } from "react-router-dom";
 export default class Header extends React.Component {
   constructor(props) {
     super(props);
@@ -37,18 +36,13 @@ export default class Header extends React.Component {
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
                 <NavItem>
-                  <NavLink href="/components/">
+                  <NavLink className="nav-link" to="/home">
                     <span className="fa fa-info fa-lg" /> Help
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="#">
-                    <span className="fa fa-user-plus fa-lg" /> SignUp
-                  </NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink href="/components/">
-                    <span className="fa fa-sign-in fa-lg" /> LogIn
+                  <NavLink className="nav-link" to="/signup">
+                    <span className="fa fa-users fa-lg" /> Login
                   </NavLink>
                 </NavItem>
               </Nav>
