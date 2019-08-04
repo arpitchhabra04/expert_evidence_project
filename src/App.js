@@ -6,13 +6,15 @@ import Header from "./components/headerComponent";
 import Description from "./components/description";
 import Footer from "./components/footerComponent";
 import Video from "./components/video";
+import SignForm from "./components/SignForm/SignForm";
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <SignForm />
+      {/* <Header />
       <Description />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }
