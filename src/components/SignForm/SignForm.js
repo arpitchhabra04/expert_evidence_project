@@ -38,7 +38,7 @@ class SignForm extends Component {
                 <i class="fa fa-linkedin" />
               </a>
             </div>
-
+            <div>OR</div>
             <input type="text" placeholder="Name" />
             <input type="text" placeholder="Surname" />
             <input type="email" placeholder="Email" />
@@ -62,7 +62,7 @@ class SignForm extends Component {
                 <i class="fa fa-linkedin" />
               </a>
             </div>
-
+            <div>OR</div>
             <input type="email" placeholder="Email" />
             <input type="password" placeholder="Password" />
             {/* <a href="#">Forgot your password?</a> */}
