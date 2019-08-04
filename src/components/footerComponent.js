@@ -26,7 +26,7 @@ function Footer(props) {
               <address>
                 Hostel 1, IIIT Gwalior, Students' Residential Zone
                 <br />
-                IIIT Area, Powai
+                IIIT Area
                 <br />
                 Gwalior
                 <br />
